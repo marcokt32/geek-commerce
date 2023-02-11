@@ -1,0 +1,77 @@
+.rodape__form {
+    width: 50%;
+}
+
+.formulario {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0px;
+    width: 100%;
+}
+
+.form__label {
+    font-weight: bold;
+    color: #464646;
+}
+
+.form__input, .form__text {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    padding: .5rem;
+    width: calc(100% - 1rem);
+    box-shadow: 0 2px 0 #ccc;
+}
+
+.form__text {
+    height: 5rem;
+    resize: none;
+}
+
+.form__botao {
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    color: #f5f5f5;
+    height: 3rem;
+    text-align: center;
+    width: 10rem;
+}
+
+.novo__produto {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.novo__produto__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    padding: 0px;
+    width: 50%;
+}
+
+.novo__produto__form__label {
+    font-weight: bold;
+    color: #464646;
+}
+
+.novo__produto__form__input,.novo__produto__form__text {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    padding: .5rem;
+    width: calc(100% - 1rem);
+    box-shadow: 0 2px 0 #ccc;
+}
+
+.novo__produto__form__text {
+    height: 5rem;
+    resize: none;
+}
+
+

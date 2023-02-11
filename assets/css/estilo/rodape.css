@@ -1,0 +1,29 @@
+.rodape {
+    background-color: #EAF2FD;
+    display: flex;
+}
+
+.rodape__conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.rodape__logo {
+    height: 3rem;
+}
+
+.rodape__lista {
+    color: #464646;
+    list-style: none;
+    line-height: 1rem;
+    font-weight: 400;
+}
+
+.rodape__desenvolvedor {
+    align-items: center;
+    display: flex;
+    height: 5rem;
+    justify-content: center;  
+}

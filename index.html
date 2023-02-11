@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alura E-commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/estilo/cabecalho.css" rel="stylesheet">
+    <link href="./assets/css/estilo/banner.css" rel="stylesheet">
+    <link href="./assets/css/estilo/produtos.css" rel="stylesheet">
+    <link href="./assets/css/estilo/rodape.css" rel="stylesheet">
+    <link href="./assets/css/estilo/formularios.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho__principal">
+                <img src="./assets/img/Logo.svg" alt="Logo" class="cabecalho__logo">
+                <div class="cabecalho__principal___busca">
+                    <input type="text" placeholder="O que deseja encontrar?" class="cabecalho__input">
+                    <img src="./assets/img/Icone.svg" alt="Icone" class="cabecalho__icone">
+                </div>
+            </div>
+            <a href="login.html"><input type="button" class="cabecalho__login" value="Login"></a>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__conteudo">
+                <h1 class="banner__titulo">Dezembro promocional</h1>
+                <h2 class="banner__subtitulo">Produtos selecionados com 33% de descontos</h2>
+                <a href="#consoles"><button type="button" class="botao__azul">Ver Consoles</button></a>
+            </div>
+        </section>
+        <section class="produtos" data-categorias>
+            <div class="produtos__lista">
+                <div class="produtos__linhaSuperior">
+                    <h3 class="produtos__titulo">Star Wars</h3>
+                    <a href="produtos.html" class="produtos__link">Ver tudo&#10141</a>
+                </div>
+                <div class="produtos__linha" data-products-starwars>
+                </div>
+            </div>
+            <div class="produtos__lista" id="consoles">
+                <div class="produtos__linhaSuperior">
+                    <h3 class="produtos__titulo">Consoles</h3>
+                    <a href="produtos.html" class="produtos__link">Ver tudo&#10141</a>
+                </div>
+                <div class="produtos__linha" data-products-consoles>
+                </div>
+            </div>
+            <div class="produtos__lista">
+                <div class="produtos__linhaSuperior">
+                    <h3 class="produtos__titulo">Diversos</h3>
+                    <a href="produtos.html" class="produtos__link">Ver tudo&#10141</a>
+                </div>
+                <div class="produtos__linha" data-products-diversos>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <div class="rodape__conteudo">
+                <img src="./assets/img/Logo.svg" alt="Logo" class="rodape__logo">
+                <div class="rodape__navegacao"></div>
+                    <ul class="rodape__lista">
+                        <li><p>Quem somos nós?</p></li>
+                        <li><p>Política de Privacidade</p></li>
+                        <li><p>Programa fidelidade</p></li>
+                        <li><p>Nossas Lojas</p></li>
+                        <li><p>Quero ser franqueado</p></li>
+                        <li><p>Anuncie aqui</p></li>
+                    </ul>
+                <div class="rodape__form">
+                    <form action="" class="formulario">
+                        <label for="" class="form__label">Fale conosco</label>
+                        <input type="text" class="form__input" placeholder="Nome">
+                        <textarea name="" id="" cols="30" rows="10" class="form__text" placeholder="Escreva sua mensagem"></textarea>
+                        <button class="botao__azul">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="rodape__desenvolvedor">
+            <p>Desenvolvido por Marco Quintela 2022</p>
+        </section>
+    </footer>
+</body>
+<script src="./js/pagina-inicial.js"></script>   
+</html>

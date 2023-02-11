@@ -1,0 +1,35 @@
+:root {
+    --azul-escuro: rgb(50,100,150);
+    --azul-claro: #009bdf;
+    --branco: #f9f9f9;
+    --gelo: #f1f1f1;
+    --cinza-escuro: #505050;
+    --cinza-claro: #758398;
+    --branco-rodape: #d1d1d1;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+strong {
+    color: var(--azul-claro);
+}
+
+main {
+    /*background-image: radial-gradient(ellipse at 100% 0px, lightSteelBlue , #fdfdfd 90%);*/
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alura E-commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/estilo/cabecalho.css" rel="stylesheet">
+    <link href="./assets/css/estilo/banner.css" rel="stylesheet">
+    <link href="./assets/css/estilo/produtos.css" rel="stylesheet">
+    <link href="./assets/css/estilo/rodape.css" rel="stylesheet">
+    <link href="./assets/css/estilo/formularios.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho__principal">
+                <a href="index.html"><img src="./assets/img/Logo.svg" alt="Logo" class="cabecalho__logo"></a>
+                <div class="cabecalho__principal___busca">
+                    <input type="text" placeholder="O que deseja encontrar?" class="cabecalho__input">
+                    <img src="./assets/img/Icone.svg" alt="Icone" class="cabecalho__icone">
+                </div>
+            </div>
+            <!--<a href="login.html"><button type="button" class="cabecalho__login">Login</button></a>-->
+        </div>
+    </header>
+    <main>
+        <section class="todos__produtos">
+            <div class="produtos">
+                <div class="produtos__linhaSuperior">
+                    <h3 class="produtos__titulo">Todos os produtos</h3>
+                    <a href="./novo-produto.html"><button class="botao__azul">Adicionar produto</button></a>
+                </div>
+                <div class="produtos__grid" data-produtos-grid>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <div class="rodape__conteudo">
+                <a href="index.html"><img src="./assets/img/Logo.svg" alt="Logo" class="rodape__logo"></a>
+                <div class="rodape__navegacao"></div>
+                    <ul class="rodape__lista">
+                        <li><p>Quem somos nós?</p></li>
+                        <li><p>Política de Privacidade</p></li>
+                        <li><p>Programa fidelidade</p></li>
+                        <li><p>Nossas Lojas</p></li>
+                        <li><p>Quero ser franqueado</p></li>
+                        <li><p>Anuncie aqui</p></li>
+                    </ul>
+                <div class="rodape__form">
+                    <form action="" class="formulario">
+                        <label for="" class="form__label">Fale conosco</label>
+                        <input type="text" class="form__input" placeholder="Nome">
+                        <textarea name="" id="" cols="30" rows="10" class="form__text" placeholder="Escreva sua mensagem"></textarea>
+                        <button class="botao__azul">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="rodape__desenvolvedor">
+            <p>Desenvolvido por Marco Quintela 2022</p>
+        </section>
+    </footer>
+</body>
+<script src="./js/produtos.js"></script>     
+</html>
